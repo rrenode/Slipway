@@ -30,75 +30,32 @@ Slipway uses a number of open source projects to work properly:
 And of course Slipway itself is open source with a [public repository][dill]
  on GitHub.
 
-### Installation
+### Getting Started
 
-
-
+Simply [download] the zip and after unarchiving it, just edit the HTML, CSS, and Javascript. Just remeber, you are required to give some sort of credit to the author.
 
 ### Development
 
 Want to contribute? Great!
 
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantanously see your updates!
+We love help from other devlopers. So if you want to help, here's how.
 
-Open your favorite Terminal and run these commands.
+After editing the files to your heart's content, send a push request to the "Contribution" branch. Check the issues tab for anything that may need fixing.
 
-First Tab:
-```sh
-$ node app
-```
+### Slipway
+There is a [Demo] avalible
 
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma test
-```
-#### Building for source
-For production release:
-```sh
-$ gulp build --prod
-```
-Generating pre-built zip archives for distribution:
-```sh
-$ gulp build dist --prod
-```
-### Docker
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
-
-```sh
-cd dillinger
-docker build -t joemccann/dillinger:${package.json.version}
-```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
-```
-
-Verify the deployment by navigating to your server address in your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
-#### Kubernetes + Google Cloud
-
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
-
+Slipway is a simply built template with a whole ton of features.
 
 ### Todos
 
  - Add more color options
- - 
+ - Jekyel Version
+
+## Help Editing Website
+If you need help, ask. Create an issue and expect a response in 24 hours.
+
+I'm more than willing to create a custom website for any open-source project that plans to help current and furture devlopers.  
 
 License
 ----
@@ -117,4 +74,5 @@ MIT
    [Animate on Scroll]: <https://michalsnik.github.io/aos/>
    [Smooth Scroll]: <https://github.com/cferdinandi/smooth-scroll>
    [Popper]: <https://popper.js.org/>
+   [Demo]: <https://rrenode.github.io/slipway>
 
