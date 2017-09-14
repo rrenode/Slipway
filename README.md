@@ -68,8 +68,8 @@ MIT
 
    [dill]: <https://github.com/joemccann/dillinger>
    [Bootstrap]: <https://getbootstrap.com/>
-   [GitHub Pages]:
-   [CounterUp]:
+   [GitHub Pages]: <https://pages.github.com/>
+   [CounterUp]: <https://github.com/bfintal/Counter-Up>
    [jQuery]: <https://jquery.com/>
    [Animate on Scroll]: <https://michalsnik.github.io/aos/>
    [Smooth Scroll]: <https://github.com/cferdinandi/smooth-scroll>
