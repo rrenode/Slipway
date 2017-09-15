@@ -50,7 +50,6 @@ Slipway is a simply built template with a whole ton of features.
 ### To-Dos
 
  - Add more color options
- - Jekyll Version
 
 ## Help Editing Website
 If you need help, ask. Create an issue and expect a response in 24 hours.
