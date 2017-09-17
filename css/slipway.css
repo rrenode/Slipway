@@ -1,0 +1,57 @@
+/*!
+ * Robert Renode - Slipway (https://github.io/Slipway)
+ * Copyright 2017 Robert Renode
+ * Licensed under MIT (https://github.com/rrenode/Slipway)
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+ 
+/*!
+ * font-family: 'Open Sans', sans-serif;
+ * font-family: 'Roboto', sans-serif;
+ */
+ 
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Html-Body------------------------------- */
+/* ---------------------------------------------------------------------------- */
+html, body {
+	height: 100%;
+	width:100%; 
+	padding:0; 
+	margin:0;
+
+	}
+body {
+background: #fff;
+color: #3F3F3F;
+font: 15px/25px Arial;
+font-family: "Roboto",serif; 
+font-weight: 400;
+
+}
+body.index-page .main-header{
+	height: calc(100vh - 50px);
+	
+}	
+@media screen and (max-width:767px){
+	body.index-page .main-header {
+		height: calc(80vh - 50px);
+	}
+}
+@media screen and (max-width:500px){
+	body.index-page .main-header {
+		height: calc(70vh - 50px);
+	}
+}
+body .wrap-body {
+	position: relative;
+	
+}
+body {
+	background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	
+}
