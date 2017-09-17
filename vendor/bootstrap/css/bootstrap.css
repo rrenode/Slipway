@@ -92,7 +92,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #212529;
+  color: #3d405b;
   background-color: #fff;
 }
 
@@ -5287,7 +5287,7 @@ a.bg-light:focus, a.bg-light:hover {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #3d405b !important;
 }
 
 a.bg-dark:focus, a.bg-dark:hover {

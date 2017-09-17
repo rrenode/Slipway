@@ -1,5 +1,5 @@
 /*!
- * Robert Renode - Slipway (https://github.io/Slipway)
+ * Robert Renode - Slipway (https://rrenode.github.io/Slipway)
  * Copyright 2017 Robert Renode
  * Licensed under MIT (https://github.com/rrenode/Slipway)
  */
@@ -54,4 +54,32 @@ body {
     background-size: cover;
     -o-background-size: cover;
 	
+}
+
+.hero-section {
+  background: url("../img/bg-main.png") 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #fff;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.hero-section .hero-section-text h1 {
+  color: #fff;
+  text-shadow: 1px 1px 2px #0a0a0a;
 }
