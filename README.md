@@ -27,7 +27,7 @@ Slipway uses a number of open source projects to work properly:
 * [Popper] - A kickass library used to manage poppers in web applications
 * [Smooth Scroll] - A lightweight script to animate scrolling to anchor link
 
-And of course Slipway itself is open source with a [public repository][dill]
+And of course Slipway itself is open source with a [public repository][slipway]
  on GitHub.
 
 ### Getting Started
@@ -65,7 +65,7 @@ MIT
 **Free Software, Hell Yeah!**
 
 
-   [dill]: <https://github.com/joemccann/dillinger>
+   [slipway]: <https://github.com/rrenode/Slipway>
    [Bootstrap]: <https://getbootstrap.com/>
    [GitHub Pages]: <https://pages.github.com/>
    [CounterUp]: <https://github.com/bfintal/Counter-Up>
