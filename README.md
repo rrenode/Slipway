@@ -10,7 +10,7 @@ Slipway is an open-source landing page template built upon [Bootstrap] designed 
 
 # New Features!
 
-  - Choose different color styles (normal, blue, red, orange)
+  - Two Styles to Choose from (Normal & Dark)
   - Number Counters
 
 
