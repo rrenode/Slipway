@@ -12,6 +12,19 @@
  */
  
 /* ---------------------------------------------------------------------------- */
+/* -------------------------------------Navbar--------------------------------- */
+/* ---------------------------------------------------------------------------- */
+ 
+.dropdown-menu a {
+	color: rgba(255,255,255,.5);
+    display: block;
+	touch-action: manipulation;
+	text-decoration: none;
+	cursor: auto;
+	font-size: 15px;
+ }
+ 
+/* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
 html, body {
@@ -75,8 +88,20 @@ body {
 }
 
 .header {
-  text-align: center;
-  position: relative;
+    text-align: center;
+    position: relative;
+}
+
+.header i.fa {
+	position: absolute;
+	text-align: center;
+	color: grey;
+	margin-top: 150px;
+	font-size: 70px;
+}
+
+.header i.fa:hover {
+	color: #999999;
 }
 
 .hero-section {
@@ -96,44 +121,76 @@ body {
 }
 
 .header .hero-section .hero-section-text {
-  color: #F4F1DE;
-  text-shadow: 1px 1px 2px #0a0a0a;
+    color: #F4F1DE;
+    text-shadow: 1px 1px 2px #0a0a0a;
 }
 
 .header .hero-section .hero-section-text h1 {
-  color: #e07a5f;
-  text-shadow: 1px 1px 2px #542517;
-  font-size: 70px;
-  padding-bottom: 15px;
+    color: #e07a5f;
+    text-shadow: 1px 1px 2px #542517;
+    font-size: 70px;
+    padding-bottom: 15px;
 }
 
 .overlay:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  background: #2b1712;
-  opacity: .9;
-}
-
-.section-heading {
-	margin: 60px 0 80px;
-	text-align: center;	
-}
-
-.section-heading h1 {
-	display: inline-block;
-	font-size: 55px;
-	font-weight: 375;
-}
-
-.about {
-	background: rgba(242, 204, 143, 1);
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: #2b1712;
+    opacity: .9;
 }
 
 .content {
 	padding-bottom: 10px;
 	padding-top: 10px;
+}
+
+.section-heading {
+	margin: 60px 0 60px;
+	text-align: center;	
+}
+
+.section-heading h1 {
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 500;
+}
+
+.section-heading p {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------About-Section--------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+.about {
+	background: rgba(242, 204, 143, 1);
+}
+
+.about-item {
+   text-align: center;
+   padding-top: 5px;
+   padding: 15px;
+}
+
+.about-item i.fa {
+    padding: 35px;
+    border-radius: 50%;
+    border: 2px solid #E07A5F;
+    color: #E07A5F;
+}
+
+.about-item:hover i.fa {
+    color: #ffffff;
+    background: #E07A5F;
+}
+
+.about-item h3 {
+   margin-top: 20px;
 }

@@ -12,6 +12,7 @@ Slipway is an open-source landing page template built upon [Bootstrap] designed 
 
   - Two Styles to Choose from (Normal & Dark)
   - Number Counters
+  - Now has a seperate download page
 
 
 Because this is an open-source project, please give ideas or even develop your own and make a push request.
