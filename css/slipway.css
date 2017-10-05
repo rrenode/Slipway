@@ -3,7 +3,7 @@
  * Copyright 2017 Robert Renode
  * Licensed under MIT (https://github.com/rrenode/Slipway)
  */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
  
 /*!
@@ -127,7 +127,7 @@ body {
 }
 
 .header .hero-section .hero-section-text h1 {
-    color: #e07a5f;
+    color: #f15050;
     text-shadow: 1px 1px 2px #542517;
     font-size: 70px;
     padding-bottom: 15px;
