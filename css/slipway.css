@@ -25,6 +25,22 @@
 	font-size: 15px;
  }
  
+ nav button a {
+	color: #fff;
+    display: block;
+	touch-action: manipulation;
+	text-decoration: none;
+	cursor: auto;	
+	border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+ }
+ 
+ nav button a:hover {
+	color: 	#C8C8C8; 
+ }
+ 
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------Html-Body------------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -33,8 +49,8 @@ html, body {
 	width:100%; 
 	padding:0; 
 	margin:0;
-
-	}
+}
+	
 body {
 background: #fff;
 color: #3F3F3F;
@@ -43,10 +59,12 @@ font-family: "Roboto",serif;
 font-weight: 400;
 
 }
+
 body.index-page .main-header{
 	height: calc(100vh - 50px);
 	
 }	
+
 @media screen and (max-width:767px){
 	body.index-page .main-header {
 		height: calc(80vh - 50px);
@@ -61,6 +79,7 @@ body .wrap-body {
 	position: relative;
 	
 }
+
 body {
 	background-color: white;
     -webkit-background-size: cover;
@@ -162,7 +181,7 @@ body {
 
 .section-heading p {
 	display: inline-block;
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: 300;
 }
 
@@ -231,6 +250,8 @@ body {
 
 .demo {
 	background: #F2BF6D;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 .demo-text {
@@ -263,3 +284,39 @@ body {
 .demo-code {
 	
 }
+
+/* ---------------------------------------------------------------------------- */
+/* --------------------------------Download-Section---------------------------- */
+/* ---------------------------------------------------------------------------- */
+
+.download {
+	background-image: url('../img/background-get.svg');
+	background-size: cover;
+	height: 100vh;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.download .section-heading h1 {
+    color: #black;
+}
+
+.download .section-heading  {
+    color: #fff;
+    text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+.download .section-heading .divider:after {
+  background: #fff;
+  content: "";
+  position: relative;
+  height: 4px;
+  width: 60px;
+  display: block;
+  text-align: center;
+  margin: 13px auto;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
