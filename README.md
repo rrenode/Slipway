@@ -66,7 +66,7 @@ MIT
 **Free Software, Hell Yeah!**
 
 
-   [slipway]: <https://github.com/rrenode/Slipway>
+   [slipway]: <https://rrenode.github.io/Slipway/>
    [Bootstrap]: <https://getbootstrap.com/>
    [GitHub Pages]: <https://pages.github.com/>
    [CounterUp]: <https://github.com/bfintal/Counter-Up>
