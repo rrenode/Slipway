@@ -79,4 +79,5 @@ MIT
    [Popper]: <https://popper.js.org/>
    [Demo]: <https://rrenode.github.io/slipway>
    [Color Combination]: <https://www.canva.com/colors/combinations/sunset-at-sea/>
+   [download]: <https://github.com/rrenode/Slipway/archive/gh-pages.zip>
 
