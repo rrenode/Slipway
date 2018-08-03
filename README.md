@@ -77,7 +77,7 @@ MIT
    [Animate on Scroll]: <https://michalsnik.github.io/aos/>
    [Smooth Scroll]: <https://github.com/cferdinandi/smooth-scroll>
    [Popper]: <https://popper.js.org/>
-   [Demo]: <https://rrenode.github.io/slipway>
+   [Demo]: <https://rrenode.github.io/Slipway>
    [Color Combination]: <https://www.canva.com/colors/combinations/sunset-at-sea/>
    [download]: <https://github.com/rrenode/Slipway/archive/gh-pages.zip>
 
