@@ -78,4 +78,7 @@ MIT
    [Demo]: <https://rrenode.github.io/Slipway>
    [Color Combination]: <https://www.canva.com/colors/combinations/sunset-at-sea/>
    [download]: <https://github.com/rrenode/Slipway/archive/gh-pages.zip>
+   
+   ### Project Warning
+   This was my first full web design project. It was done a when I was yuounger. I don't plan to much mroe to this project.
 
