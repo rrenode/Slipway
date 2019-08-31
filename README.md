@@ -2,7 +2,7 @@
 
 [![Bootstrap](https://image.ibb.co/cj8yw5/powered_by_bootstrap.png)](https://getbootstrap.com/)
 
-Slipway is an open-source landing page template built upon [Bootstrap] designed for Open-Source Projects.
+Slipway is an open-source landing page template built upon [Bootstrap] and designed for Open-Source Projects.
 
   - Responsive
   - Easy to edit
