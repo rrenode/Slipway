@@ -199,6 +199,14 @@ body {
   border-radius: 5em;
 }
 
+.showHide { display:none; }
+
+/* Desktop*/
+@media screen and (min-width: 768px) {
+  .showHide  { display: block; }
+  #leftside > button { display: none; }
+}
+
 /* ---------------------------------------------------------------------------- */
 /* ------------------------------------About-Section--------------------------- */
 /* ---------------------------------------------------------------------------- */
@@ -265,7 +273,8 @@ body {
    height: 0;
    box-sizing: border-box;
    display: block;
-}
+    }
+
 
 .demo-video iframe {
 	width: 100%;
@@ -275,10 +284,6 @@ body {
     top: 0;
     left: 0;
 	box-sizing: border-box;
-}
-
-.demo-code {
-	
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -294,7 +299,7 @@ body {
 }
 
 .download .section-heading h1 {
-    color: #black;
+    color: black;
 }
 
 .download .section-heading  {
@@ -316,3 +321,4 @@ body {
   -ms-border-radius: 5em;
   -o-border-radius: 5em;
   border-radius: 5em;
+}
