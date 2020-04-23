@@ -80,5 +80,5 @@ MIT
    [download]: <https://github.com/rrenode/Slipway/archive/gh-pages.zip>
    
    ### Project Warning
-   This was my first full web design project. It was done a when I was yuounger. I don't plan to much mroe to this project.
+   This was my first full "web design" project. It's but a humble landing page with possibilities. 
 
